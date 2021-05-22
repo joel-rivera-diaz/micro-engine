@@ -1,8 +1,9 @@
 export class Engine {
+	 private w: number;
+	 private h: Number;
 	/**
 	 * @constructor
-	 * Create a new game.
-	 * 
+	 * Initial game setup
 	 * @param {GameConfig} configObject
 	 * 
 	 */
@@ -20,6 +21,8 @@ export class Engine {
 		ctx.fillRect(10, 10, 50, 50);
 		ctx.fillStyle = 'rgba(0, 0, 200, 0.5)';
 		ctx.fillRect(30, 30, 50, 500);
+
+		
 	}
 }
 
